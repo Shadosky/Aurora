@@ -366,70 +366,70 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Devices\SteelSeries\AuroraPlugin.lsp" />
-    <None Include="kb_layouts\Logitech\layout.jpn.json">
+    <Content Include="kb_layouts\Logitech\layout.jpn.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Razer\layout.de.json">
+    </Content>
+    <Content Include="kb_layouts\Razer\layout.de.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Razer\layout.fr.json">
+    </Content>
+    <Content Include="kb_layouts\Razer\layout.fr.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Razer\layout.intl.json">
+    </Content>
+    <Content Include="kb_layouts\Razer\layout.intl.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Razer\layout.ru.json">
+    </Content>
+    <Content Include="kb_layouts\Razer\layout.ru.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Razer\layout.uk.json">
+    </Content>
+    <Content Include="kb_layouts\Razer\layout.uk.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Razer\layout.us.json">
+    </Content>
+    <Content Include="kb_layouts\Razer\layout.us.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
     <Resource Include="Profiles\Payday 2\GSI\PD2_GSI.zip" />
     <Resource Include="Profiles\Dota 2\GSI\gamestate_integration_aurora.cfg" />
     <Resource Include="Profiles\CSGO\GSI\gamestate_integration_aurora.cfg" />
-    <None Include="kb_layouts\Corsair\layout.de.json">
+    <Content Include="kb_layouts\Corsair\layout.de.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Corsair\layout.fr.json">
+    </Content>
+    <Content Include="kb_layouts\Corsair\layout.fr.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Corsair\layout.intl.json">
+    </Content>
+    <Content Include="kb_layouts\Corsair\layout.intl.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Corsair\layout.ru.json">
+    </Content>
+    <Content Include="kb_layouts\Corsair\layout.ru.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Corsair\layout.uk.json">
+    </Content>
+    <Content Include="kb_layouts\Corsair\layout.uk.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Corsair\layout.us.json">
+    </Content>
+    <Content Include="kb_layouts\Corsair\layout.us.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Logitech\layout.ru.json">
+    </Content>
+    <Content Include="kb_layouts\Logitech\layout.ru.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Logitech\layout.de.json">
+    </Content>
+    <Content Include="kb_layouts\Logitech\layout.de.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Logitech\layout.fr.json">
+    </Content>
+    <Content Include="kb_layouts\Logitech\layout.fr.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Logitech\layout.intl.json">
+    </Content>
+    <Content Include="kb_layouts\Logitech\layout.intl.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Logitech\layout.uk.json">
+    </Content>
+    <Content Include="kb_layouts\Logitech\layout.uk.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="kb_layouts\Logitech\layout.us.json">
+    </Content>
+    <Content Include="kb_layouts\Logitech\layout.us.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
     <None Include="packages.config" />
-    <None Include="Pointers\RocketLeague.json">
+    <Content Include="Pointers\RocketLeague.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -612,21 +612,21 @@
     <Resource Include="Resources\RemoveProfile_Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="redist\vc_redist.x64.exe">
+    <None Include="redist\vc_redist.x64.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="redist\vc_redist.x86.exe">
+    </None>
+    <None Include="redist\vc_redist.x86.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Resources\CorsairInstall\Step1.png" />
-    <Content Include="Resources\CorsairInstall\Step2.png" />
+    </None>
+    <Resource Include="Resources\CorsairInstall\Step1.png" />
+    <Resource Include="Resources\CorsairInstall\Step2.png" />
     <Resource Include="Resources\x64\Aurora-LightFXWrapper.dll" />
-    <None Include="ver_minor.txt">
+    <Content Include="ver_minor.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="ver_major.txt">
+    </Content>
+    <Content Include="ver_major.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
     <Resource Include="Resources\LastBullet_Logo.png" />
     <Resource Include="Resources\overwatch_icon.png" />
     <Resource Include="Resources\Win32\Aurora-LogiLEDWrapper.dll" />
@@ -637,20 +637,20 @@
     <Resource Include="Resources\leagueoflegends_48x48.png" />
     <Resource Include="Resources\hotline_32x32.png" />
     <Resource Include="Resources\talosprinciple_64x64.png" />
-    <Content Include="Resources\Win32\Aurora-RazerLEDWrapper.dll" />
+    <Resource Include="Resources\Win32\Aurora-RazerLEDWrapper.dll" />
     <Resource Include="Resources\x64\Aurora-RazerLEDWrapper.dll" />
     <Resource Include="Resources\FreeForm_Circle.png" />
     <Resource Include="Resources\FreeForm_CircleFilled.png" />
     <Resource Include="Resources\FreeForm_Line.png" />
     <Resource Include="Resources\FreeForm_Rectangle.png" />
     <Resource Include="Resources\FreeForm_RectangleFilled.png" />
-    <Content Include="Resources\LogitechInstall\Step1.png" />
-    <Content Include="Resources\LogitechInstall\Step2.png" />
-    <Content Include="Resources\LogitechInstall\Step3.png" />
-    <Content Include="Resources\LogitechInstall\Step4.png" />
-    <Content Include="Resources\LogitechInstall\Step5.png" />
-    <Content Include="Resources\RazerInstall\Step1.png" />
-    <Content Include="Resources\RazerInstall\Step2.png" />
+    <Resource Include="Resources\LogitechInstall\Step1.png" />
+    <Resource Include="Resources\LogitechInstall\Step2.png" />
+    <Resource Include="Resources\LogitechInstall\Step3.png" />
+    <Resource Include="Resources\LogitechInstall\Step4.png" />
+    <Resource Include="Resources\LogitechInstall\Step5.png" />
+    <Resource Include="Resources\RazerInstall\Step1.png" />
+    <Resource Include="Resources\RazerInstall\Step2.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Aurora-SkypeIntegration\Aurora-SkypeIntegration.csproj">

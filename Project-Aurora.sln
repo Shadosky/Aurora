@@ -24,6 +24,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aurora-LightFXWrapper", "Au
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora-SkypeIntegration", "Aurora-SkypeIntegration\Aurora-SkypeIntegration.csproj", "{E9E9663C-153B-4977-9D0B-E87AFB93280A}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Aurora-Installer", "Aurora-Installer\Aurora-Installer.vdproj", "{DDDFB05F-C52B-4964-B156-9A8DE2192D83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -88,6 +90,10 @@ Global
 		{E9E9663C-153B-4977-9D0B-E87AFB93280A}.Release|x64.Build.0 = Release|x86
 		{E9E9663C-153B-4977-9D0B-E87AFB93280A}.Release|x86.ActiveCfg = Release|x86
 		{E9E9663C-153B-4977-9D0B-E87AFB93280A}.Release|x86.Build.0 = Release|x86
+		{DDDFB05F-C52B-4964-B156-9A8DE2192D83}.Debug|x64.ActiveCfg = Debug
+		{DDDFB05F-C52B-4964-B156-9A8DE2192D83}.Debug|x86.ActiveCfg = Debug
+		{DDDFB05F-C52B-4964-B156-9A8DE2192D83}.Release|x64.ActiveCfg = Release
+		{DDDFB05F-C52B-4964-B156-9A8DE2192D83}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
